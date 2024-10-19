@@ -9,9 +9,9 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Olá, sou Matheus</h1>
                 <p className={styles.description}>
-                    Sou desenvolvedor apaixonado, com experiência em ERPs e em tecnologias como
-                    HTML, CSS, JavaScript, PHP, React e Angular. Busco sempre desafios que aprimorem
-                    minhas habilidades e contribuam para projetos inovadores.
+                    Desenvolvedor júnior com 2 anos de experiência em sistemas ERP.
+                    Especializado em tecnologias como React, Angular e PHP, busco
+                    sempre aprimorar minhas habilidades e contribuir para soluções eficazes.
                 </p>
                 <a href="mailto:matheusedivaldodev@gmail.com" className={styles.contactBtn}>
                     Vamos conversar!
