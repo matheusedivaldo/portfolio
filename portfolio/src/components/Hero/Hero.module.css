@@ -51,11 +51,13 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
+  max-width: 400px;
+  height: auto;
   z-index: 1;
 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 
@@ -83,6 +85,18 @@
   }
 }
 
+.react {
+  color: #61dafb;
+}
+
+.angular {
+  color: #e23237;
+}
+
+.php {
+  color: #4f5b93;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -90,5 +104,10 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 80%;
+    max-width: none;
   }
 }
