@@ -10,11 +10,9 @@ export const Hero = () => {
                 <h1 className={styles.title}>Olá, sou Matheus</h1>
                 <p className={styles.description}>
                     Desenvolvedor júnior com 2 anos de experiência em sistemas ERP.
-                    Conhecimento em tecnologias como
-                    <span className={styles.react}> React</span>,
-                    <span className={styles.angular}> Angular</span> e
-                    <span className={styles.php}> PHP</span>,
-                    busco sempre aprimorar minhas habilidades e contribuir para soluções eficazes.
+                    Possuo conhecimento em <span className={styles.frontend}>Front-end</span> e
+                    <span className={styles.backend}> Back-end</span>, buscando sempre aprimorar
+                    minhas habilidades e contribuir para soluções eficazes.
                 </p>
                 <div className={styles.socialIcons}>
                     <a href="https://github.com/matheusedivaldo" target="_blank" rel="noopener noreferrer">
