@@ -19,6 +19,15 @@
 
 .menuBtn {
   display: none;
+  cursor: pointer;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 .menu {
@@ -77,13 +86,11 @@
 
   .menuBtn {
     display: block;
-    cursor: pointer;
   }
 
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: flex-start;
     gap: 13px;
     border-radius: 5px;
     background: var(--color-primary);
@@ -93,7 +100,7 @@
       rgba(17, 17, 17, 1) 100%
     );
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
     color: var(--color-text);
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -121,39 +128,5 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
-
-  @keyframes fadeOut {
-    0% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-  }
-
-  .menuOpen li:nth-child(1) {
-    animation-delay: 0.1s;
-  }
-  .menuOpen li:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-  .menuOpen li:nth-child(3) {
-    animation-delay: 0.3s;
-  }
-  .menuOpen li:nth-child(4) {
-    animation-delay: 0.4s;
-  }
-
-  .menuItems li.fadeOut {
-    animation: fadeOut 0.3s ease forwards;
-  }
-
-  .menuItems.fadeOut {
-    display: flex;
-    opacity: 1;
-    visibility: visible;
   }
 }

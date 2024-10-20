@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
-import { getImageUrl } from "../../utils";
+import { FaBarsStaggered, FaXmark } from 'react-icons/fa6';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -22,15 +22,13 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">Me</a>
             <div className={styles.menu}>
-                <img
-                    className={styles.menuBtn}
-                    src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")}
-                    alt='btn-menu'
-                    onClick={handleMenuToggle}
-                />
-                <ul
-                    className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''} ${fadeOut ? styles.fadeOut : ''}`}
-                >
+                <div className={styles.menuBtn} onClick={handleMenuToggle}>
+                    {menuOpen ?
+                        <FaXmark size={30} className={`${styles.icon} ${styles.rotate}`} /> :
+                        <FaBarsStaggered size={30} className={`${styles.icon} ${menuOpen ? styles.rotate : ''}`} />
+                    }
+                </div>
+                <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''} ${fadeOut ? styles.fadeOut : ''}`}>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#about">Sobre mim</a></li>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#skills">Habilidades</a></li>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#projects">Projetos</a></li>
