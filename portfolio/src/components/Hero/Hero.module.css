@@ -46,7 +46,7 @@
 
 .icon {
   color: white;
-  font-size: 40px;
+  font-size: 3rem;
   transition: color 0.3s ease;
 }
 
@@ -114,6 +114,6 @@
   }
 
   .icon {
-    font-size: 25px;
+    font-size: 2rem;
   }
 }
