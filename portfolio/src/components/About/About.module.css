@@ -1,8 +1,9 @@
 .container {
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
-  padding: 50px 10%;
-  margin-top: 100px;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 100px 10%;
   z-index: 1;
 }
 
@@ -79,7 +80,8 @@
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding: 30px 5%;
+    padding: 30px;
+    margin: 100px 0;
   }
 
   .content {
