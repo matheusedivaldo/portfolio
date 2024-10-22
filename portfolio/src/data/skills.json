@@ -30,5 +30,9 @@
     {
       "title": "PL/SQL",
       "imageSrc": "skills/plsql.png"
+    },
+    {
+      "title": "Arduíno",
+      "imageSrc": "skills/arduino.png"
     }
   ]
