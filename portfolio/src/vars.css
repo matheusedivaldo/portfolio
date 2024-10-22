@@ -1,11 +1,9 @@
 :root {
-  /* Cores */
-  --color-text: #eeeeee;
-  --color-secondary: #f44336;
-  --color-primary: #ff9800;
-  --color-dark: #111111;
-  --color-bg: #1a1a1a;
+  --color-text: #d5d6d8;
+  --color-secondary: #abaeb1;
+  --color-primary: #82868a;
+  --color-dark: #585e63;
+  --color-bg: #2f363d;
 
-  /* Fontes */
   --font-poppins: "Poppins";
 }
