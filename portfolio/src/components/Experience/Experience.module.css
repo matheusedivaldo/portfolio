@@ -48,6 +48,12 @@
 
 .skillImageContainer img {
   width: 75px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.skillImageContainer img:hover {
+  filter: grayscale(0%);
 }
 
 .skill p {
