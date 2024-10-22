@@ -1,0 +1,13 @@
+[
+  {
+    "role": "Estágiario PHP",
+    "organisation": "TML Auto Peças",
+    "startDate": "Abril, 2023",
+    "endDate": "Atual",
+    "experiences": [
+      "Desenvolvimento de módulos ERP.",
+      "Otimização de bancos de dados."
+    ],
+    "imageSrc": "history/tml.png"
+  }
+]
