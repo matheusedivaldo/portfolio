@@ -1,28 +1,28 @@
+@import "../../vars.css";
+
 .container {
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 50px;
-  margin: 100px 10%;
+  padding: 73px;
+  margin-top: 129px;
   z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 2.5rem;
+  font-size: 35px;
   font-weight: 700;
-  letter-spacing: 1.5px;
-  margin-bottom: 40px;
-  text-align: center;
+  letter-spacing: 1.75px;
   text-transform: uppercase;
-
 }
 
 .content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 }
 
 .aboutImage {
@@ -37,20 +37,20 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  width: 100%;
+  gap: 50px;
 }
 
 .aboutItem {
   display: flex;
+  flex-direction: row;
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 20px;
+  padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(17, 17, 17, 0.9) 100%
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -61,35 +61,25 @@
   background-size: 100% 100%;
 }
 
-.aboutItemText {
-  margin-left: 15px;
-}
-
 .aboutItem h3 {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .aboutItem p {
-  font-size: 1rem;
-}
-
-.icon {
-  font-size: 3rem;
-  color: var(--color-secondary);
+  font-size: 25px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding: 30px;
-    margin: 100px 0;
-    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
   }
 
   .content {
     flex-direction: column;
-    align-items: center;
   }
 
   .aboutImage {
@@ -97,28 +87,11 @@
   }
 
   .aboutItems {
-    gap: 20px;
+    margin-top: 29px;
   }
 
   .aboutItem {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px;
-  }
-
-  .aboutItemText {
-    margin-left: 0;
-  }
-
-  .aboutItem h3 {
-    font-size: 1.25rem;
-  }
-
-  .aboutItem p {
-    font-size: 0.9rem;
-  }
-
-  .icon {
-    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
