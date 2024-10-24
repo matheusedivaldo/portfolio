@@ -8,11 +8,21 @@
   padding: 18px 24px;
   max-width: 345px;
   margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 .image {
   margin-bottom: 26px;
   border-radius: 10px;
+  transition: opacity 0.3s;
+}
+
+.container:hover .image {
+  opacity: 0.8;
 }
 
 .title {
@@ -41,7 +51,7 @@
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 6px 16px;
 }
 
 .links {
@@ -58,5 +68,11 @@
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 3px 22px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.link:hover {
+  background: var(--color-dark);
+  transform: scale(1.05);
 }

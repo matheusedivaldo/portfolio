@@ -11,7 +11,7 @@
         "title": "Teleprompter",
         "imageSrc": "projects/projectCore.png",
         "description": "Aplicativo para simular um teleprompter.",
-        "skills": ["React", "JavaScript", "Node"],
+        "skills": ["React", "JavaScript", "Node", "CSS"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     },
@@ -19,7 +19,7 @@
         "title": "Meu IMC",
         "imageSrc": "projects/projectCore.png",
         "description": "App para calcular e monitorar o IMC.",
-        "skills": ["Flutter", "Dart", "Firebase"],
+        "skills": ["Flutter", "Dart", "Firebase", "Node"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     }
