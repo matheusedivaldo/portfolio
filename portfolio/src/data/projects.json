@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Core",
+        "imageSrc": "projects/project.png",
+        "description": "Plataforma para gestão de recursos educacionais.",
+        "skills": ["PHP", "MySQL", "JavaScript", "MVC"],
+        "demo": "https://github.com/coreedu/core",
+        "source": "https://core.kesug.com/"
+    },
+    {
+        "title": "Teleprompter",
+        "imageSrc": "projects/project.png",
+        "description": "Aplicativo para simular um teleprompter.",
+        "skills": ["React", "JavaScript", "Node"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Meu IMC",
+        "imageSrc": "projects/project.png",
+        "description": "App para calcular e monitorar o IMC.",
+        "skills": ["Flutter", "Dart", "Firebase"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]
