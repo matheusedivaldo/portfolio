@@ -1,7 +1,7 @@
 [
     {
         "title": "Core",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/projectCore.png",
         "description": "Plataforma para gestão de recursos educacionais.",
         "skills": ["PHP", "MySQL", "JavaScript", "MVC"],
         "demo": "https://github.com/coreedu/core",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Teleprompter",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/projectCore.png",
         "description": "Aplicativo para simular um teleprompter.",
         "skills": ["React", "JavaScript", "Node"],
         "demo": "https://www.example.com",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Meu IMC",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/projectCore.png",
         "description": "App para calcular e monitorar o IMC.",
         "skills": ["Flutter", "Dart", "Firebase"],
         "demo": "https://www.example.com",
