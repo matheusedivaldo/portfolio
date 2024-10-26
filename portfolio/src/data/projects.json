@@ -5,22 +5,22 @@
         "description": "Plataforma para gestão de recursos educacionais.",
         "skills": ["PHP", "MySQL", "JavaScript", "MVC"],
         "demo": "https://github.com/coreedu/core",
-        "source": "https://core.kesug.com/"
+        "source": "https://github.com/coreedu/core"
     },
     {
         "title": "Teleprompter",
         "imageSrc": "projects/projectCore.png",
-        "description": "Aplicativo para simular um teleprompter.",
+        "description": "Simulação de teleprompter para prática de leitura.",
         "skills": ["React", "JavaScript", "Node", "CSS"],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/mathuesedivaldo/teleprompter"
     },
     {
-        "title": "Meu IMC",
+        "title": "BoletoTools",
         "imageSrc": "projects/projectCore.png",
-        "description": "App para calcular e monitorar o IMC.",
+        "description": "Validação e extração de informações de boletos.",
         "skills": ["Flutter", "Dart", "Firebase", "Node"],
         "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "source": "https://github.com/mathuesedivaldo/boleto-tools"
     }
 ]
