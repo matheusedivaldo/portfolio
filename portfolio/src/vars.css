@@ -1,11 +1,10 @@
 :root {
-  --color-text: #d5d6d8;
-  --color-secondary: #abaeb1;
-  --color-primary: #82868a;
-  --color-dark: #585e63;
-  --color-bg: #2f363d;
+  --color-text: #e0e0e0;
+  --color-secondary: #9b9b9b;
+  --color-primary: #4a90e2;
+  --color-dark: #2c3e50;
+  --color-bg: #1a1a1a;
 
-  --font-poppins: "Poppins";
-  --font-lato: "Lato";
-
+  --font-poppins: "Poppins", sans-serif;
+  --font-lato: "Lato", sans-serif;
 }
