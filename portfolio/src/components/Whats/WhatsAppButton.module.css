@@ -10,15 +10,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   z-index: 1000;
+  animation: pulse 1.5s infinite;
 }
 
 .whatsappButton:hover {
   background-color: #128c7e;
   transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .whatsappButton svg {
