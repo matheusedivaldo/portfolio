@@ -7,6 +7,7 @@ import { Experience } from './components/Experience/Experience';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 import WhatsAppButton from './components/Whats/WhatsappButton';
+import ServiceList from './components/ServiceList/ServiceList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <ServiceList />
       <Contact />
       <WhatsAppButton />
     </div>

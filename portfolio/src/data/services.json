@@ -1,0 +1,21 @@
+[
+    {
+        "category": "Desenvolvimento",
+        "services": [
+            "Front-end",
+            "Portfólio Pessoal",
+            "Site de Receitas",
+            "Landing Pages",
+            "Sites de Apresentação"
+        ]
+    },
+    {
+        "category": "Design",
+        "services": [
+            "Criação de Identidade Visual",
+            "MIV",
+            "Posts para Redes",
+            "Banners"
+        ]
+    }
+]
