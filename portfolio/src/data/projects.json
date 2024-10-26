@@ -3,7 +3,7 @@
         "title": "Core",
         "imageSrc": "projects/projectCore.png",
         "description": "Plataforma para gestão de recursos educacionais.",
-        "skills": ["PHP", "MySQL", "JavaScript", "MVC"],
+        "skills": ["PHP", "MySQL", "JavaScript"],
         "demo": "https://github.com/coreedu/core",
         "source": "https://github.com/coreedu/core"
     },
