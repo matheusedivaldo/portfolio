@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaChevronDown, FaChevronUp  } from "react-icons/fa6";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
 import services from "../../data/services.json";
 import styles from "./ServiceList.module.css";
@@ -8,7 +8,6 @@ const Services = () => {
     const [expandedCategories, setExpandedCategories] = useState({});
     const [expandedServices, setExpandedServices] = useState({});
 
-    // Alterna a visualização das categorias
     const toggleCategory = (index) => {
         setExpandedCategories((prevState) => ({
             ...prevState,
@@ -16,7 +15,6 @@ const Services = () => {
         }));
     };
 
-    // Alterna a visualização das descrições dos serviços
     const toggleService = (categoryIndex, serviceIndex) => {
         const key = `${categoryIndex}-${serviceIndex}`;
         setExpandedServices((prevState) => ({
