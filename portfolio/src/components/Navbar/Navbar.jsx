@@ -30,7 +30,7 @@ const Navbar = () => {
                 </div>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''} ${fadeOut ? styles.fadeOut : ''}`}>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#about">Sobre mim</a></li>
-                    <li className={fadeOut ? 'fadeOut' : ''}><a href="#skills">Habilidades</a></li>
+                    <li className={fadeOut ? 'fadeOut' : ''}><a href="#services">Serviços</a></li>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#projects">Projetos</a></li>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#contact">Contato</a></li>
                 </ul>

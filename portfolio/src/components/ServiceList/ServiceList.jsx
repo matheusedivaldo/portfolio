@@ -4,7 +4,7 @@ import styles from "./ServiceList.module.css";
 
 const Services = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="services">
             <h2>Serviços</h2>
             <div className={styles.servicesList}>
                 {services.map((category, index) => (
