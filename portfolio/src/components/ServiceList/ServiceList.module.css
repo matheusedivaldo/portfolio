@@ -35,6 +35,10 @@ h2 {
   color: var(--color-primary);
   border-bottom: 2px solid var(--color-primary);
   padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .serviceCategory ul {
@@ -54,12 +58,22 @@ h2 {
   transition: background-color 0.3s, transform 0.2s;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   font-family: var(--font-lato);
+  cursor: pointer;
 }
 
 .serviceCategory li:hover {
   background: rgba(74, 144, 226, 0.5);
   color: #fff;
   transform: translateY(-2px);
+}
+
+.serviceDescription {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+  padding-left: 10px;
+  line-height: 1.4;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 @media screen and (max-width: 830px) {

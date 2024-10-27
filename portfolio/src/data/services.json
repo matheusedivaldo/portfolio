@@ -2,20 +2,47 @@
     {
         "category": "Desenvolvimento",
         "services": [
-            "Front-end",
-            "Portfólio Pessoal",
-            "Site de Receitas",
-            "Landing Pages",
-            "Sites de Apresentação"
+            {
+                "title": "Front-end",
+                "description": "Desenvolvimento visual e interativo do site."
+            },
+            {
+                "title": "Portfólio Pessoal",
+                "description": "Criação de um site para destacar projetos e habilidades."
+            },
+            {
+                "title": "Site de Receitas",
+                "description": "Construção de uma plataforma para publicar e buscar receitas."
+            },
+            {
+                "title": "Landing Pages",
+                "description": "Desenvolvimento de páginas únicas para campanhas de marketing."
+            },
+            {
+                "title": "Sites de Apresentação",
+                "description": "Sites simples para empresas e profissionais."
+            }
         ]
     },
     {
         "category": "Design",
         "services": [
-            "Criação de Identidade Visual",
-            "MIV",
-            "Posts para Redes",
-            "Banners"
+            {
+                "title": "Criação de Identidade Visual",
+                "description": "Desenvolvimento de logos e elementos visuais para marcas."
+            },
+            {
+                "title": "Manual de Identidade Visual (MIV)",
+                "description": "Diretrizes para uso da identidade visual."
+            },
+            {
+                "title": "Posts para Redes Sociais",
+                "description": "Design de imagens e vídeos para redes sociais."
+            },
+            {
+                "title": "Banners",
+                "description": "Banners para sites, eventos e campanhas publicitárias."
+            }
         ]
     }
 ]
