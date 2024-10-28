@@ -3,24 +3,20 @@
         "category": "Desenvolvimento",
         "services": [
             {
-                "title": "Front-end",
-                "description": "Desenvolvimento visual e interativo do site."
+                "title": "UX/UI Design",
+                "description": "Interfaces intuitivas e centradas na experiência do usuário."
             },
             {
-                "title": "Portfólio Pessoal",
-                "description": "Criação de um site para destacar projetos e habilidades."
-            },
-            {
-                "title": "Site de Receitas",
-                "description": "Construção de uma plataforma para publicar e buscar receitas."
+                "title": "Portfólio Profissional",
+                "description": "Criação de sites personalizados para destacar projetos."
             },
             {
                 "title": "Landing Pages",
-                "description": "Desenvolvimento de páginas únicas para campanhas de marketing."
+                "description": "Páginas focadas em conversão para campanhas de marketing."
             },
             {
-                "title": "Sites de Apresentação",
-                "description": "Sites simples para empresas e profissionais."
+                "title": "Websites Corporativos",
+                "description": "Sites institucionais para empresas e profissionais."
             }
         ]
     },
@@ -28,20 +24,20 @@
         "category": "Design",
         "services": [
             {
-                "title": "Criação de Identidade Visual",
-                "description": "Desenvolvimento de logos e elementos visuais para marcas."
+                "title": "Identidade Visual",
+                "description": "Criação de logos e elementos visuais para marcas fortes."
             },
             {
-                "title": "Manual de Identidade Visual (MIV)",
-                "description": "Diretrizes para uso da identidade visual."
+                "title": "Manual de Identidade",
+                "description": "Guia completo para uso e aplicação da identidade visual."
             },
             {
-                "title": "Posts para Redes Sociais",
-                "description": "Design de imagens e vídeos para redes sociais."
+                "title": "Social Media Design",
+                "description": "Posts e visuais otimizados para redes sociais."
             },
             {
-                "title": "Banners",
-                "description": "Banners para sites, eventos e campanhas publicitárias."
+                "title": "Banners Publicitários",
+                "description": "Design de banners para web, eventos e campanhas."
             }
         ]
     }

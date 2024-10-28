@@ -1,54 +1,56 @@
 import React, { useState } from "react";
-import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
-
-import services from "../../data/services.json";
+import { FaCode, FaPaintBrush } from "react-icons/fa";
+import servicesData from "../../data/services.json";
 import styles from "./ServiceList.module.css";
 
 const Services = () => {
-    const [expandedCategories, setExpandedCategories] = useState({});
-    const [expandedServices, setExpandedServices] = useState({});
+    const [expandedService, setExpandedService] = useState(null);
 
-    const toggleCategory = (index) => {
-        setExpandedCategories((prevState) => ({
-            ...prevState,
-            [index]: !prevState[index],
-        }));
+    const toggleDescription = (index) => {
+        setExpandedService(expandedService === index ? null : index);
     };
 
-    const toggleService = (categoryIndex, serviceIndex) => {
-        const key = `${categoryIndex}-${serviceIndex}`;
-        setExpandedServices((prevState) => ({
-            ...prevState,
-            [key]: !prevState[key],
-        }));
+    const getCategoryIcon = (category) => {
+        switch (category) {
+            case "Desenvolvimento":
+                return <FaCode className={styles.icon} />;
+            case "Design":
+                return <FaPaintBrush className={styles.icon} />;
+            default:
+                return null;
+        }
     };
 
     return (
-        <div className={styles.container} id="services">
-            <h2>Serviços</h2>
-            <div className={styles.servicesList}>
-                {services.map((category, index) => (
-                    <div key={index} className={styles.serviceCategory}>
-                        <h3 onClick={() => toggleCategory(index)}>
-                            {category.category}
-                            {expandedCategories[index] ? <FaChevronUp /> : <FaChevronDown />}
-                        </h3>
-                        {expandedCategories[index] && (
-                            <ul>
-                                {category.services.map((service, serviceIndex) => (
-                                    <li key={serviceIndex} onClick={() => toggleService(index, serviceIndex)}>
-                                        <span>{service.title}</span>
-                                        {expandedServices[`${index}-${serviceIndex}`] && (
-                                            <p className={styles.serviceDescription}>{service.description}</p>
-                                        )}
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
+        <section className={styles.container} id="services">
+            <h2 className={styles.title}>Serviços</h2>
+            {servicesData.map((categoryData, catIndex) => (
+                <div key={catIndex} className={styles.categorySection}>
+                    <div className={styles.categoryHeader}>
+                        {getCategoryIcon(categoryData.category)}
+                        <h3 className={styles.categoryTitle}>{categoryData.category}</h3>
                     </div>
-                ))}
-            </div>
-        </div>
+                    <div className={styles.cardsContainer}>
+                        {categoryData.services.map((service, srvIndex) => (
+                            <div key={srvIndex} className={styles.card}>
+                                <h4 className={styles.serviceTitle}>{service.title}</h4>
+                                {expandedService === `${catIndex}-${srvIndex}` ? (
+                                    <p className={styles.description}>{service.description}</p>
+                                ) : (
+                                    <p className={styles.shortDescription}>Clique para saber mais</p>
+                                )}
+                                <button
+                                    className={styles.toggleButton}
+                                    onClick={() => toggleDescription(`${catIndex}-${srvIndex}`)}
+                                >
+                                    {expandedService === `${catIndex}-${srvIndex}` ? "Ver menos" : "Saber mais"}
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            ))}
+        </section>
     );
 };
 
