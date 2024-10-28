@@ -26,11 +26,6 @@
   padding-bottom: 0.5rem;
 }
 
-.icon {
-  font-size: 1.5rem;
-  color: var(--color-primary);
-}
-
 .categoryTitle {
   font-family: var(--font-lato);
   font-size: 1.8rem;
