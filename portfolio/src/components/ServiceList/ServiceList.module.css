@@ -90,3 +90,9 @@
 .toggleButton:hover {
   color: var(--color-text);
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 10%;
+  }
+}
