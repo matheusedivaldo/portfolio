@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
-import { FaBarsStaggered, FaXmark } from 'react-icons/fa6';
+import { Sling as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,10 +23,7 @@ const Navbar = () => {
             <a className={styles.title} href="/">Me</a>
             <div className={styles.menu}>
                 <div className={styles.menuBtn} onClick={handleMenuToggle}>
-                    {menuOpen ?
-                        <FaXmark size={30} className={`${styles.icon} ${styles.rotate}`} /> :
-                        <FaBarsStaggered size={30} className={`${styles.icon} ${menuOpen ? styles.rotate : ''}`} />
-                    }
+                    <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
                 </div>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''} ${fadeOut ? styles.fadeOut : ''}`}>
                     <li className={fadeOut ? 'fadeOut' : ''}><a href="#about">Sobre mim</a></li>
