@@ -11,16 +11,14 @@
 .title {
   font-family: var(--font-poppins);
   font-size: 2.5rem;
-  color: var(--color-primary);
-  margin-bottom: 3rem;
+  color: var(--color-secondary);
+  margin-bottom: 3.5rem;
 }
-
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 50px;
 }
 
 .skills {
@@ -47,7 +45,7 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-dark);
+  background-color: var(--color-bg-highlight);
   border-radius: 100%;
   display: flex;
   align-items: center;
