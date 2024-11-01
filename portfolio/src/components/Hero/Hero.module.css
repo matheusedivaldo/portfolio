@@ -87,11 +87,11 @@
 }
 
 .frontend {
-  color: #61dafb;
+  color: var(--color-secondary);
 }
 
 .backend {
-  color: #4f5b93;
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 830px) {
