@@ -36,7 +36,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 .aboutItem {
@@ -52,11 +52,14 @@
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: 0.4s;
+  transition: background-size 0.4s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .aboutItem:hover {
   background-size: 100% 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
 }
 
 .aboutItem h3 {
@@ -66,7 +69,8 @@
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 18px;
+  color: var(--color-text-secondary);
 }
 
 .aboutItemText {
@@ -97,5 +101,6 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    box-shadow: none;
   }
 }
