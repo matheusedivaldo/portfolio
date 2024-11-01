@@ -1,6 +1,5 @@
 .container {
   background-color: var(--color-bg);
-  color: var(--color-text);
   padding: 40px 20px;
   font-family: var(--font-lato);
 }
@@ -11,7 +10,7 @@
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
-  color: var(--color-text);
+  color: var(--color-text-secondary);
 }
 
 .footerContent h3 {
@@ -31,7 +30,7 @@
 }
 
 .quickLinks a {
-  color: var(--color-text);
+  color: var(--color-text-secondary);
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -45,7 +44,6 @@
   align-items: center;
   gap: 10px;
   justify-content: center;
-  color: var(--color-secondary);
   font-family: var(--font-lato);
 }
 
@@ -57,7 +55,7 @@
 }
 
 .socialIcons a {
-  color: var(--color-text);
+  color: var(--color-text-secondary);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
@@ -70,7 +68,6 @@
   text-align: center;
   padding-top: 20px;
   font-size: 0.9rem;
-  color: var(--color-secondary);
   border-top: 1px solid var(--color-dark);
   margin-top: 20px;
 }
