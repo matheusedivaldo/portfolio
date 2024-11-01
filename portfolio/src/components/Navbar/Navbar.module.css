@@ -8,13 +8,14 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
+  background-color: var(--color-bg); /* Cor de fundo principal */
 }
 
 .title {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--color-text); /* Texto principal */
 }
 
 .menu {
@@ -36,7 +37,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: var(--color-text); /* Texto principal */
   text-decoration: none;
   position: relative;
 }
@@ -49,7 +50,7 @@
   width: 100%;
   height: 3px;
   border-radius: 2px;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary); /* Cor secundária (30%) */
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -62,6 +63,7 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--color-bg); /* Cor de fundo principal */
   }
 
   .menu {
@@ -80,11 +82,7 @@
     display: none;
     flex-direction: column;
     gap: 15px;
-    background: linear-gradient(
-      180deg,
-      rgba(213, 214, 216, 0.1) 0%,
-      rgba(47, 54, 61, 0.9) 100%
-    );
+    background: var(--color-bg); /* Cor de fundo principal */
     padding: 20px 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     opacity: 0;
