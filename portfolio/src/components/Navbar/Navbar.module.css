@@ -8,14 +8,14 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
-  background-color: var(--color-bg); /* Cor de fundo principal */
+  background-color: var(--color-bg);
 }
 
 .title {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-text); /* Texto principal */
+  color: var(--color-text);
 }
 
 .menu {
@@ -37,7 +37,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text); /* Texto principal */
+  color: var(--color-text);
   text-decoration: none;
   position: relative;
 }
@@ -50,7 +50,7 @@
   width: 100%;
   height: 3px;
   border-radius: 2px;
-  background-color: var(--color-secondary); /* Cor secundária (30%) */
+  background-color: var(--color-secondary);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -63,7 +63,7 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-bg); /* Cor de fundo principal */
+    background-color: var(--color-bg);
   }
 
   .menu {
