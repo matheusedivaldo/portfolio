@@ -82,7 +82,7 @@
     display: none;
     flex-direction: column;
     gap: 15px;
-    background: var(--color-bg); /* Cor de fundo principal */
+    background: var(--color-bg);
     padding: 20px 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     opacity: 0;
