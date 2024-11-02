@@ -42,9 +42,10 @@ export const Contact = () => {
             </div>
             <div className={styles.footerBottom}>
                 <p>
-                    © {new Date().getFullYear()} Matheus Edivaldo. Todos os direitos reservados.
+                    © {new Date().getFullYear()} Todos os direitos reservados | Desenvolvido por Matheus Edivaldo.
                 </p>
             </div>
+
         </footer>
     );
 };
