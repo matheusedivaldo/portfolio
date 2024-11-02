@@ -9,10 +9,14 @@ export const Contact = () => {
                 <div className={styles.contactInfo}>
                     <h3>Entre em Contato</h3>
                     <p>
-                        <FaEnvelope /> matheusedivaldodev@gmail.com
+                        <a href="mailto:matheusedivaldodev@gmail.com">
+                            <FaEnvelope /> matheusedivaldodev@gmail.com
+                        </a>
                     </p>
                     <p>
-                        <FaPhone /> (11) 93225-0639
+                        <a href="tel:+5511932250639">
+                            <FaPhone /> (11) 93225-0639
+                        </a>
                     </p>
                 </div>
                 <div className={styles.quickLinks}>

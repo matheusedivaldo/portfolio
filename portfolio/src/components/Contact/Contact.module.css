@@ -47,6 +47,16 @@
   font-family: var(--font-lato);
 }
 
+.contactInfo p a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contactInfo p a:hover {
+  color: var(--color-secondary);
+}
+
 .socialIcons {
   display: flex;
   justify-content: center;
