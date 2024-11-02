@@ -19,7 +19,8 @@ export const Contact = () => {
                     <h3>Links Rápidos</h3>
                     <ul>
                         <li><a href="#about">Sobre</a></li>
-                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#projects">Projetos</a></li>
                     </ul>
                 </div>
                 <div className={styles.socialIcons}>
