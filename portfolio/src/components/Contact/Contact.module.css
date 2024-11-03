@@ -2,8 +2,6 @@
   background-color: var(--color-bg);
   padding: 40px 20px;
   font-family: var(--font-lato);
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .footerContent {
@@ -82,8 +80,6 @@
   font-size: 0.9rem;
   border-top: 1px solid var(--color-dark);
   margin-top: 20px;
-  margin-left: -10%;
-  margin-right: -10%;
 }
 
 .footerBottom p {
