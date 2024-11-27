@@ -4,26 +4,15 @@ import Hamburger from 'hamburger-react';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [fadeOut, setFadeOut] = useState(false);
+    const [activeItem, setActiveItem] = useState('');
 
     const handleMenuToggle = () => {
-        if (menuOpen) {
-            setFadeOut(true);
-            setTimeout(() => {
-                setMenuOpen(false);
-                setFadeOut(false);
-            }, 200);
-        } else {
-            setMenuOpen(true);
-        }
+        setMenuOpen(!menuOpen);
     };
 
-    const handleLinkClick = () => {
-        setFadeOut(true);
-        setTimeout(() => {
-            setMenuOpen(false);
-            setFadeOut(false);
-        }, 200);
+    const handleLinkClick = (label) => {
+        setActiveItem(label);
+        setMenuOpen(false);
     };
 
     const menuItems = [
@@ -40,10 +29,16 @@ const Navbar = () => {
                 <div className={styles.menuBtn} onClick={handleMenuToggle}>
                     <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
                 </div>
-                <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''} ${fadeOut ? styles.fadeOut : ''}`}>
+                <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}>
                     {menuItems.map((item, index) => (
-                        <li key={index} onClick={handleLinkClick} className={fadeOut ? styles.fadeOut : ''}>
-                            <a href={item.href}>{item.label}</a>
+                        <li key={index}>
+                            <a
+                                href={item.href}
+                                onClick={() => handleLinkClick(item.label)}
+                                className={activeItem === item.label ? styles.active : ''}
+                            >
+                                {item.label}
+                            </a>
                         </li>
                     ))}
                 </ul>
