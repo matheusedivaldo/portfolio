@@ -4,8 +4,16 @@
         "imageSrc": "projects/core.png",
         "description": "Plataforma para gestão de recursos educacionais.",
         "skills": ["JavaScript", "PHP", "MySQL"],
-        "demo": "https://github.com/coreedu/core",
+        "demo": "https://core.wuaze.com",
         "source": "https://github.com/coreedu/core"
+    },
+    {
+        "title": "Boletools",
+        "imageSrc": "projects/boletools.png",
+        "description": "Validação e extração de informações de boletos.",
+        "skills": ["React", "JavaScript"],
+        "demo": "https://boletools.net.br",
+        "source": "https://github.com/matheusedivaldo/boletools"
     },
     {
         "title": "Teleprompter",
@@ -13,14 +21,6 @@
         "description": "Simulação de teleprompter para prática de leitura.",
         "skills": ["React", "JavaScript", "Node"],
         "demo": "https://www.example.com",
-        "source": "https://github.com/mathuesedivaldo/teleprompter"
-    },
-    {
-        "title": "BoletoTools",
-        "imageSrc": "projects/boletosTools.png",
-        "description": "Validação e extração de informações de boletos.",
-        "skills": ["React", "JavaScript", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://github.com/mathuesedivaldo/boleto-tools"
+        "source": "https://github.com/mathuesedivaldo/teleprompter" 
     }
 ]
