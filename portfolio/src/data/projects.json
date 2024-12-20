@@ -14,13 +14,5 @@
         "skills": ["React", "JavaScript"],
         "demo": "https://boletools.net.br",
         "source": "https://github.com/matheusedivaldo/boletools"
-    },
-    {
-        "title": "Teleprompter",
-        "imageSrc": "projects/teleprompter.png",
-        "description": "Simulação de teleprompter para prática de leitura.",
-        "skills": ["React", "JavaScript", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://github.com/mathuesedivaldo/teleprompter" 
     }
 ]

@@ -3,9 +3,9 @@
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(
-    180deg,
-    var(--color-bg) 0%,
-    var(--color-dark) 100%
+    135deg,
+    var(--color-dark) 30%,
+    var(--color-bg-highlight) 100%
   );
   padding: 18px 24px;
   width: 100%;
