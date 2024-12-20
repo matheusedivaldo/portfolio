@@ -4,8 +4,7 @@
         "imageSrc": "projects/core.png",
         "description": "Plataforma para gestão de recursos educacionais.",
         "skills": ["JavaScript", "PHP", "MySQL"],
-        "demo": "https://core.wuaze.com",
-        "source": "https://github.com/coreedu/core"
+        "demo": "https://core.wuaze.com"
     },
     {
         "title": "Boletools",
