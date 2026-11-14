@@ -9,5 +9,6 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
-  base: "https://matheusedivaldo.com.br",
+  // Dominio proprio na raiz. Se publicar em github.io/portfolio, troque para "/portfolio/".
+  base: "/",
 });

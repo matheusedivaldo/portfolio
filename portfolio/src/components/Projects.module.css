@@ -1,0 +1,15 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.card {
+  display: flex; flex-direction: column; overflow: hidden; border-radius: var(--radius);
+  background: var(--bg-alt); border: 1px solid var(--border); transition: transform .25s, box-shadow .25s;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.imageLink { display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--surface); }
+.imageLink img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.card:hover .imageLink img { transform: scale(1.05); }
+.body { padding: 22px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.body p { color: var(--text-muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags li { font-size: .8rem; padding: 4px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--primary); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 8px; }
+.actions :global(.btn) { padding: 10px 20px; font-size: .9rem; }

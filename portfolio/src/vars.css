@@ -1,25 +1,40 @@
+:root,
+:root[data-theme="dark"] {
+  --bg: #0e1215;
+  --bg-alt: #151a1f;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.1);
+  --text: #f3f2ee;
+  --text-muted: #9aa3ab;
+  --primary: #5aa0f0;
+  --secondary: #f0994a;
+  --on-primary: #08121e;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --nav-bg: rgba(14, 18, 21, 0.75);
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f6f2;
+  --bg-alt: #ffffff;
+  --surface: rgba(20, 30, 40, 0.04);
+  --surface-hover: rgba(20, 30, 40, 0.08);
+  --border: rgba(20, 30, 40, 0.12);
+  --text: #161b20;
+  --text-muted: #55606a;
+  --primary: #1f6fd0;
+  --secondary: #d4741a;
+  --on-primary: #ffffff;
+  --shadow: 0 10px 30px rgba(20, 30, 40, 0.12);
+  --nav-bg: rgba(247, 246, 242, 0.8);
+  color-scheme: light;
+}
+
 :root {
-  /* Cores de texto */
-  --color-text: #f3f2ee; /* Texto principal */
-  --color-text-secondary: #9b9b9b; /* Texto secundário */
-
-  /* Cores principais */
-  --color-primary: #4a90e2; /* 60% Cor principal do tema */
-  --color-secondary: #e78c3b; /* 30% Cor secundária */
-
-  /* Cores complementares e sutis */
-  --color-accent: #ffcc00; /* 10% Cor de destaque (exemplo) */
-  --color-bg-highlight: #2a2d30; /* Fundo alternado sutil para seções */
-
-  /* Cores de fundo e escuros */
-  --color-dark: #2c3e50; /* Cor escura para texto ou fundo */
-  --color-bg: #171b1e; /* Fundo principal */
-
-  /* Cores para feedback */
-  --color-success: #5cb85c; /* Verde suave para sucesso */
-  --color-error: #d9534f; /* Vermelho suave para erro */
-
-  /* Fontes */
-  --font-poppins: "Poppins", sans-serif; /* Fonte principal */
-  --font-lato: "Lato", sans-serif; /* Fonte secundária */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Lato", sans-serif;
+  --radius: 16px;
+  --nav-h: 68px;
+  --max-w: 1100px;
 }

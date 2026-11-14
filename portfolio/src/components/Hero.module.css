@@ -1,0 +1,27 @@
+.hero {
+  max-width: var(--max-w); margin: 0 auto; padding: calc(var(--nav-h) + 64px) 24px 64px;
+  min-height: 100vh; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 48px; align-items: center;
+}
+.greeting { color: var(--secondary); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .9rem; }
+.title { font-size: clamp(2.4rem, 6vw, 4rem); margin: 8px 0; }
+.role {
+  font-family: var(--font-heading); font-size: clamp(1.1rem, 2.5vw, 1.5rem); font-weight: 600;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text; background-clip: text; color: transparent; width: fit-content;
+}
+.description { color: var(--text-muted); font-size: 1.1rem; margin: 20px 0 28px; max-width: 52ch; }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.socials { display: flex; gap: 14px; margin-top: 32px; font-size: 1.4rem; }
+.socials a { color: var(--text-muted); transition: color .2s, transform .2s; }
+.socials a:hover { color: var(--primary); transform: translateY(-3px); }
+.imageWrap { position: relative; justify-self: center; width: min(100%, 420px); }
+.imageWrap::before {
+  content: ""; position: absolute; inset: 8% -6% -6% 8%; z-index: -1; border-radius: 32px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary)); opacity: .25; filter: blur(30px);
+}
+.image { width: 100%; height: auto; border-radius: 28px; }
+
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .imageWrap { order: -1; width: min(70%, 280px); justify-self: start; }
+}

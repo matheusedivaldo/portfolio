@@ -1,0 +1,6 @@
+.button {
+  position: fixed; right: 20px; bottom: 20px; z-index: 40; width: 56px; height: 56px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.8rem; color: #fff; background: #25d366;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); transition: transform .2s;
+}
+.button:hover { transform: scale(1.1); }

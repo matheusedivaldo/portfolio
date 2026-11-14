@@ -1,23 +1,20 @@
 [
   {
-    "title": "Core",
+    "slug": "core",
     "imageSrc": "projects/core.png",
-    "description": "Plataforma para gestão e organização de recursos educacionais.",
     "skills": ["JavaScript", "PHP", "MySQL"],
     "demo": "https://core.wuaze.com"
   },
   {
-    "title": "Boletools",
+    "slug": "boletools",
     "imageSrc": "projects/boletools.png",
-    "description": "Aplicação web para validação e extração de dados de boletos.",
     "skills": ["React", "JavaScript"],
     "demo": "https://matheusedivaldo.github.io/boletools/",
     "source": "https://github.com/matheusedivaldo/boletools"
   },
   {
-    "title": "Kobix",
+    "slug": "kobix",
     "imageSrc": "projects/kobix.png",
-    "description": "Landing page institucional para apresentação de soluções digitais.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://kobix.com.br/"
   }

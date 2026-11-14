@@ -1,27 +1,21 @@
-import React from 'react';
-import styles from "./App.module.css";
-import Navbar from "./components/Navbar/Navbar";
-import { Hero } from './components/Hero/Hero';
-import { About } from "./components/About/About";
-import { Experience } from './components/Experience/Experience';
-import { Projects } from './components/Projects/Projects';
-import { Contact } from './components/Contact/Contact';
-import WhatsAppButton from './components/Whats/WhatsappButton';
-import ServiceList from './components/ServiceList/ServiceList';
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
+import Home from "./pages/Home";
+import ProjectPage from "./pages/ProjectPage";
 
-function App() {
+export default function App() {
   return (
-    <div className={styles.App}>
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <ServiceList />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projetos/:slug" element={<ProjectPage />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+      <Footer />
       <WhatsAppButton />
-    </div>
+    </>
   );
 }
-
-export default App;

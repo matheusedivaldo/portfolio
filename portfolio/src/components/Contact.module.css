@@ -1,0 +1,17 @@
+.grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: start; }
+.form { display: grid; gap: 16px; padding: 28px; border-radius: var(--radius); background: var(--bg-alt); border: 1px solid var(--border); }
+.form label { display: grid; gap: 6px; font-weight: 700; font-size: .9rem; }
+.form input, .form textarea {
+  padding: 12px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg); resize: vertical; font-weight: 400;
+}
+.form input:focus, .form textarea:focus { outline: 2px solid var(--primary); border-color: transparent; }
+.form button { justify-content: center; }
+.form small { color: var(--text-muted); }
+.info { display: grid; gap: 14px; }
+.info > a { display: flex; align-items: center; gap: 12px; padding: 16px 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); transition: border-color .2s; word-break: break-all; }
+.info > a:hover { border-color: var(--primary); }
+.info svg { color: var(--primary); flex-shrink: 0; }
+.socials { display: flex; gap: 14px; font-size: 1.5rem; margin-top: 8px; }
+.socials a { color: var(--text-muted); }
+.socials a:hover { color: var(--primary); }
+@media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
